@@ -1,0 +1,9 @@
+Updated test run (Windows, Python 3.11):
+96 passed in 2.14s
+
+Changes covered:
+- Quote freshness states and default rejection
+- Upstox canned-response validation
+- P&L, quantity and cost validation
+- Independent duplicate/reopen/close behavior
+- Reconciliation of summary rejection categories

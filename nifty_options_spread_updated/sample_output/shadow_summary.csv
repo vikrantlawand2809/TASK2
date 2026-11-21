@@ -1,0 +1,24 @@
+metric,value,note
+total_opportunities_evaluated,14,"Every ATM x CE/PE evaluation, incl. repeats on later polls"
+premium_eligible_evaluations,9,"Valid quotes within 60-85 or below 60, including entered and duplicate-box evaluations"
+simulated_entries_taken,6,
+duplicate_box_rejections,3,Active position already exists for the same cycle/strike/type
+above_range_rejections,4,Valid premium difference above 85
+stale_data_rejections,1,One or both quote timestamps are stale
+unverifiable_data_rejections,0,Fetch-time or otherwise unverifiable quote freshness
+missing_data_rejections,0,
+invalid_data_rejections,0,
+contract_missing_rejections,0,
+negative_difference_rejections,0,
+rejected_entries,8,All non-entered evaluations; categories reconcile to this total
+open_positions,5,
+closed_positions,1,
+total_simulated_gross_pnl_realised,-3034.5,"INR, closed positions only"
+total_estimated_costs_realised,154.45,"INR, ESTIMATED (placeholder rates)"
+total_simulated_net_pnl_realised,-3188.95,"INR, closed positions only"
+unrealised_gross_pnl_open,1386.75,"INR, mark-to-exit prices; not a result"
+unrealised_net_pnl_open,833.11,"INR, mark-to-exit prices; not a result"
+outcome_ENTERED,6,Evaluation outcome count
+outcome_REJECTED_ABOVE_RANGE,4,Evaluation outcome count
+outcome_REJECTED_DATA_STALE,1,Evaluation outcome count
+outcome_REJECTED_DUPLICATE,3,Evaluation outcome count

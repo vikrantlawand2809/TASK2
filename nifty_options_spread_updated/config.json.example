@@ -1,0 +1,7 @@
+{
+  "entry": {"in_range_min": 60.0, "in_range_max": 85.0, "allow_below_range": true},
+  "quotes": {"method": "executable", "live_max_age_seconds": 15, "delayed_max_age_seconds": 120, "accept_delayed": false, "reject_unverifiable_freshness": true},
+  "exits": {"profit_target_pnl": null, "stop_loss_pnl": null, "cycle_closure_enabled": false},
+  "cycle": {"roll_on_expiry_day": true, "roll_time": "15:00"},
+  "sizing": {"lots": 1}
+}
